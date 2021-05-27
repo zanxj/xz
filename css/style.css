@@ -24,7 +24,8 @@ a{color:#333;}
 
 *{padding:0;margin:0;}
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 768px)
+{
     #content{width: calc(100% - 20px);clear:both;float: none;margin: 0 auto;padding: 0 10px;min-height: 600px;}
     #sidebar{width: calc(100% - 20px);clear:both; padding: 0 10px; min-height: 150px;}
     #container {
@@ -35,5 +36,14 @@ a{color:#333;}
     #body{/* padding:0 10px; */}
     *{font-size:18px;}
 }
+
+
+
+#apt-content 
+{background-color:#C7EDCC; height:100%; width:100%; float:left; min-width: 80%; max-width: 100%; min-height: calc(100% - 100px); min-height: 836px; min-height: calc(100vh - 123px);}
+
+
+
+
 
 
